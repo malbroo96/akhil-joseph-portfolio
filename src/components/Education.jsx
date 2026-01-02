@@ -52,7 +52,9 @@ export default function Education() {
               B.Com — MES Arts and Science College, Kerala
             </h4>
           </div>
-          <p className="text-sm text-gray-400">11/2015 – 02/2021, Perinthalmanna</p>
+          <p className="text-sm text-gray-400">
+            11/2015 – 02/2021, Perinthalmanna
+          </p>
         </div>
       </div>
     </section>
