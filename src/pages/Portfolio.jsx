@@ -20,9 +20,9 @@ const projectsData = [
   {
     title: "HabitFlow",
     short:
-      "Nutrition & workout tracker with real-time food insights and secure JWT authentication.",
-    long: "Built HabitFlow, a nutrition & workout tracker with real-time food insights and secure JWT authentication.",
-    tech: ["React", "Node.js", "Express", "MongoDB", "JWT"],
+      "Full-stack health tracking app with workout logging, nutrition insights, and AI-based food analysis.",
+    long: "Built HabitFlow, a full-stack health tracking app with workout logging, nutrition insights, and AI-based food analysis using secure JWT authentication.",
+    tech: ["React", "Node.js", "Express.js", "MongoDB", "JWT"],
     image: habitFlowImg,
     link: "https://github.com/malbroo96/habit-flow",
     deploy: "https://habit-flow-new.vercel.app/",
@@ -30,9 +30,9 @@ const projectsData = [
   {
     title: "Loan Manager",
     short:
-      "Multi-step forms, live status tracking, and document verification workflow.",
-    long: "Developed a Loan Manager with multi-step forms, live status tracking, and document verification workflow.",
-    tech: ["React", "Node.js", "Express", "MongoDB"],
+      "Loan management system with multi-step forms, real-time status tracking, and secure financial data handling.",
+    long: "Developed a loan management system with multi-step forms, real-time status tracking, backend validation, and secure APIs for sensitive financial data.",
+    tech: ["React", "Node.js", "Express.js", "MongoDB", "JWT"],
     image: loanManagerImg,
     link: "https://github.com/malbroo96/loan-manager",
     deploy: "https://masai-react-five.vercel.app",
@@ -40,8 +40,8 @@ const projectsData = [
   {
     title: "FinanceApp",
     short:
-      "Live market news, expense tracking, category insights, and interactive data charts.",
-    long: "Created FinanceApp with live market news, expense tracking, category insights, and interactive data charts.",
+      "Personal finance dashboard for expense tracking, category-based insights, and interactive data visualization.",
+    long: "Built a personal finance dashboard for expense tracking, category-based insights, and interactive data visualization using real-time cloud storage.",
     tech: ["React", "Firebase", "Chart.js"],
     image: financeAppImg,
     link: "https://github.com/malbroo96/finance-app",

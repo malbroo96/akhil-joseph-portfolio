@@ -69,7 +69,7 @@ export default function Hero() {
           </a>
 
           <a
-            href="mailto:akhiljoseph225292@gmail.co"
+            href="mailto:akhiljoseph225292@gmail.com"
             className=" inline-flex items-center gap-2 px-5 py-2.5 rounded-lg
       bg-transparent border border-cyan-400/40 text-cyan-300 hover:border-cyan-300 hover:text-cyan-200
       hover:shadow-[0_0_20px_rgba(34,211,238,0.5)] transition-all duration-300 "

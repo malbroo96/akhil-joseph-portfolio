@@ -28,7 +28,7 @@ export default function Education() {
               Full-Stack Development Program — Masai School
             </h4>
           </div>
-          <p className="text-sm text-gray-400">Ongoing — 2025 – Present</p>
+          <p className="text-sm text-gray-400">03/2025 – 11/2025, Bengaluru</p>
         </div>
 
         {/* BTech */}
@@ -52,7 +52,7 @@ export default function Education() {
               B.Com — MES Arts and Science College, Kerala
             </h4>
           </div>
-          <p className="text-sm text-gray-400">2015 – 2021</p>
+          <p className="text-sm text-gray-400">11/2015 – 02/2021, Perinthalmanna</p>
         </div>
       </div>
     </section>
