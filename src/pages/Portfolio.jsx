@@ -24,7 +24,7 @@ const projectsData = [
     long: "Built HabitFlow, a full-stack health tracking app with workout logging, nutrition insights, and AI-based food analysis using secure JWT authentication.",
     tech: ["React", "Node.js", "Express.js", "MongoDB", "JWT"],
     image: habitFlowImg,
-    link: "https://github.com/malbroo96/habit-flow",
+    link: "https://github.com/malbroo96/HabitFlow",
     deploy: "https://habit-flow-new.vercel.app/",
   },
   {
