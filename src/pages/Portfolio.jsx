@@ -13,7 +13,8 @@ import Footer from "../components/Footer";
 // Import project screenshots
 import habitFlowImg from "../assets/habbit flow.png";
 import loanManagerImg from "../assets/loan manager.png";
-import financeAppImg from "../assets/finance app.png";
+import wealthyAppImg from "../assets/finance app.png";
+
 import todoImg from "../assets/todo.png";
 
 const projectsData = [
@@ -34,17 +35,17 @@ const projectsData = [
     long: "Developed a loan management system with multi-step forms, real-time status tracking, backend validation, and secure APIs for sensitive financial data.",
     tech: ["React", "Node.js", "Express.js", "MongoDB", "JWT"],
     image: loanManagerImg,
-    link: "https://github.com/malbroo96/loan-manager",
+    link: "https://github.com/malbroo96/masai-react/tree/main/loan-app",
     deploy: "https://masai-react-five.vercel.app",
   },
   {
-    title: "FinanceApp",
+    title: "Wealthy App",
     short:
       "Personal finance dashboard for expense tracking, category-based insights, and interactive data visualization.",
     long: "Built a personal finance dashboard for expense tracking, category-based insights, and interactive data visualization using real-time cloud storage.",
-    tech: ["React", "Firebase", "Chart.js"],
-    image: financeAppImg,
-    link: "https://github.com/malbroo96/finance-app",
+    tech: ["HTML", "Firebase", "Chart.js","Huggingface" ],
+    image: wealthyAppImg,
+    link: "https://github.com/malbroo96/masai-project/tree/647998640286e41956fc379b3a9c6bc71d57c96a/finaleva/project1",
     deploy: "https://delightful-sprinkles-8e91a9.netlify.app/index.html",
   },
   {
