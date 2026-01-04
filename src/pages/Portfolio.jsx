@@ -43,7 +43,7 @@ const projectsData = [
     short:
       "Personal finance dashboard for expense tracking, category-based insights, and interactive data visualization.",
     long: "Built a personal finance dashboard for expense tracking, category-based insights, and interactive data visualization using real-time cloud storage.",
-    tech: ["HTML", "Firebase", "Chart.js","Huggingface" ],
+    tech: ["HTML", "Firebase", "Chart.js", "Huggingface"],
     image: wealthyAppImg,
     link: "https://github.com/malbroo96/masai-project/tree/647998640286e41956fc379b3a9c6bc71d57c96a/finaleva/project1",
     deploy: "https://delightful-sprinkles-8e91a9.netlify.app/index.html",
@@ -55,7 +55,7 @@ const projectsData = [
     long: "Built a MERN-based Todo CRUD app with REST APIs, MongoDB storage, responsive UI, and improved error handling.",
     tech: ["React", "Node.js", "Express", "MongoDB"],
     image: todoImg,
-    link: "https://github.com/malbroo96/todo-app",
+    link: "https://github.com/malbroo96/pro1Todo/tree/main/frontend",
     deploy: "https://todo-snowy-pi-91.vercel.app/",
   },
 ];
