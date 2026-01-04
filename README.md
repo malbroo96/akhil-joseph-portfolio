@@ -1,5 +1,5 @@
-# Akhil Joseph Portfolio
+# Akhil Joseph – Portfolio
 
-This is the portfolio website of Akhil Joseph, a Full-Stack Developer.
+[![Live](https://img.shields.io/badge/Live%20Site-Visit-blue)](https://akhiljosephportfolio.netlify.app/)
 
-Built with React, Vite, and Tailwind CSS.
+A personal portfolio website showcasing projects, skills, and experience.
