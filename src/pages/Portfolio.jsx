@@ -7,6 +7,7 @@ import Experience from "../components/Experience";
 import Education from "../components/Education";
 import Skills from "../components/Skills";
 import GitHub from "../components/Github";
+import Certificates from "../components/Certificates";
 import Contact from "../components/Contact";
 import Footer from "../components/Footer";
 
@@ -22,7 +23,7 @@ const projectsData = [
     title: "HabitFlow",
     short:
       "Full-stack health tracking app with workout logging, nutrition insights, and AI-based food analysis.",
-    long: "Built HabitFlow, a full-stack health tracking app with workout logging, nutrition insights, and AI-based food analysis using secure JWT authentication.",
+    long: "Built HabitFlow, a full-stack health tracking app with workout logging and nutrition insights using secure JWT authentication.",
     tech: ["React", "Node.js", "Express.js", "MongoDB", "JWT"],
     image: habitFlowImg,
     link: "https://github.com/malbroo96/HabitFlow",
@@ -43,7 +44,7 @@ const projectsData = [
     short:
       "Personal finance dashboard for expense tracking, category-based insights, and interactive data visualization.",
     long: "Built a personal finance dashboard for expense tracking, category-based insights, and interactive data visualization using real-time cloud storage.",
-    tech: ["HTML", "Firebase", "Chart.js", "Huggingface"],
+    tech: ["React", "Firebase", "Chart.js"],
     image: wealthyAppImg,
     link: "https://github.com/malbroo96/masai-project/tree/647998640286e41956fc379b3a9c6bc71d57c96a/finaleva/project1",
     deploy: "https://delightful-sprinkles-8e91a9.netlify.app/index.html",
@@ -83,6 +84,7 @@ export default function Portfolio() {
       <main className="max-w-[1200px] mx-auto px-6 py-12 space-y-60">
         <Hero />
         <Education />
+        <Certificates />
         <Experience />
         <Projects projects={projectsData} onOpen={setActiveProject} />
         <Skills skills={skillsData} tools={toolsData} />

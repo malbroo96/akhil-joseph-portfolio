@@ -30,8 +30,8 @@ const skills = [
     img: "https://img.shields.io/badge/MongoDB-04010b?logo=mongodb&logoColor=47A248",
   },
   {
-    name: "REST API",
-    img: "https://img.shields.io/badge/REST%20API-04010b?logo=rest&logoColor=FF6B6B",
+    name: "REST APIs",
+    img: "https://img.shields.io/badge/REST%20APIs-04010b?logo=rest&logoColor=FF6B6B",
   },
   {
     name: "JWT",
@@ -61,9 +61,24 @@ const skills = [
     name: "MVC Architecture",
     img: "https://img.shields.io/badge/MVC-04010b?logo=mvc&logoColor=FF6B6B",
   },
+];
+
+const softSkills = [
   {
-    name: "Data Structures and Algorithms",
-    img: "https://img.shields.io/badge/DSA-04010b?logo=algorithm&logoColor=FF6B6B",
+    name: "Problem Solving",
+    img: "https://img.shields.io/badge/Problem%20Solving-04010b?logo=brain&logoColor=FF6B6B",
+  },
+  {
+    name: "Communication",
+    img: "https://img.shields.io/badge/Communication-04010b?logo=message&logoColor=00C4CC",
+  },
+  {
+    name: "Adaptability",
+    img: "https://img.shields.io/badge/Adaptability-04010b?logo=refresh&logoColor=FF6B6B",
+  },
+  {
+    name: "Teamwork",
+    img: "https://img.shields.io/badge/Teamwork-04010b?logo=users&logoColor=007ACC",
   },
 ];
 
@@ -104,6 +119,24 @@ const Skills = () => {
         </h2>
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 mb-15 gap-6">
           {skills.map((skill, index) => (
+            <div
+              key={index}
+              className=" skill-badge  bg-[#0d1323]  border border-cyan-500/30  shadow-[0_0_20px_rgba(0,255,255,0.15)]   p-4 rounded-xl flex items-center justify-center  hover:border-cyan-400  hover:shadow-[0_0_25px_rgba(0,255,255,0.35)] transition-all duration-300 "
+            >
+              <img
+                src={skill.img}
+                alt={skill.name}
+                className="w-28 h-20 object-contain rounded-md"
+              />
+            </div>
+          ))}
+        </div>
+
+        <h2 className="text-center  text-3xl md:text-4xl font-bold text-cyan-300 mb-12">
+          Soft Skills
+        </h2>
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 mb-15 gap-6">
+          {softSkills.map((skill, index) => (
             <div
               key={index}
               className=" skill-badge  bg-[#0d1323]  border border-cyan-500/30  shadow-[0_0_20px_rgba(0,255,255,0.15)]   p-4 rounded-xl flex items-center justify-center  hover:border-cyan-400  hover:shadow-[0_0_25px_rgba(0,255,255,0.35)] transition-all duration-300 "
