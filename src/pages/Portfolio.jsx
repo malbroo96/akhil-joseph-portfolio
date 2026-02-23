@@ -17,6 +17,7 @@ import loanManagerImg from "../assets/loan manager.png";
 import wealthyAppImg from "../assets/finance app.png";
 
 import todoImg from "../assets/todo.png";
+import carBlissImg from "../assets/car-bliss.png";
 
 const projectsData = [
   {
@@ -64,7 +65,7 @@ const projectsData = [
     short: "Car service website built with Tailwind CSS and React.",
     long: "Purchased the domain and created this project using Tailwind CSS and React.",
     tech: ["React", "Tailwind CSS"],
-    image: "https://www.car-bliss.com/favicon.ico",
+    image: carBlissImg,
     link: "https://github.com/malbroo96/car-care",
     deploy: "https://www.car-bliss.com/",
   },
