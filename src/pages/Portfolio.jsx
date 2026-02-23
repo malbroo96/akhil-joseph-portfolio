@@ -59,6 +59,15 @@ const projectsData = [
     link: "https://github.com/malbroo96/pro1Todo/tree/main/frontend",
     deploy: "https://todo-snowy-pi-91.vercel.app/",
   },
+  {
+    title: "Car-Bliss",
+    short: "Car service website built with Tailwind CSS and React.",
+    long: "Purchased the domain and created this project using Tailwind CSS and React.",
+    tech: ["React", "Tailwind CSS"],
+    image: "https://www.car-bliss.com/favicon.ico",
+    link: "https://github.com/malbroo96/car-care",
+    deploy: "https://www.car-bliss.com/",
+  },
 ];
 
 const skillsData = [
