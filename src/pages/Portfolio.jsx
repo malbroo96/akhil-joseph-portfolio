@@ -62,7 +62,7 @@ const projectsData = [
   },
   {
     title: "Car-Bliss",
-    short: "Car service website built with Tailwind CSS and React.",
+    short: "Purchased a domain for this car service website built with Tailwind CSS and React.",
     long: "Purchased the domain and created this project using Tailwind CSS and React.",
     tech: ["React", "Tailwind CSS"],
     image: carBlissImg,
