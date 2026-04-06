@@ -18,8 +18,19 @@ import wealthyAppImg from "../assets/finance app.png";
 
 import todoImg from "../assets/todo.png";
 import carBlissImg from "../assets/car-bliss.png";
+import dreamCarImg from "../assets/dreamcar.png";
 
 const projectsData = [
+  {
+    title: "DreamCar Marketplace",
+    short:
+      "MERN marketplace for buying and selling used cars with Google login, Razorpay payment integration, admin access control, and listing management.",
+    long: "Built a full-stack DreamCar marketplace with authenticated car listing workflows, Razorpay payment integration, role-based admin controls, and production deployment for real-world used car transactions.",
+    tech: ["React", "Node.js", "Express.js", "MongoDB", "JWT", "Tailwind CSS"],
+    image: dreamCarImg,
+    link: "https://github.com/malbroo96/DreamCar",
+    deploy: "https://dreamcar-omega.vercel.app/#/admin",
+  },
   {
     title: "HabitFlow",
     short:
