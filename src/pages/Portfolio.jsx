@@ -24,9 +24,18 @@ const projectsData = [
   {
     title: "DreamCar Marketplace",
     short:
-      "MERN marketplace for buying and selling used cars with Google login, Razorpay payment integration, admin access control, and listing management.",
+      "MERN used-car marketplace with Google auth, Razorpay, role-based admin panel, and listing management.",
     long: "Built a full-stack DreamCar marketplace with authenticated car listing workflows, Razorpay payment integration, role-based admin controls, and production deployment for real-world used car transactions.",
     tech: ["React", "Node.js", "Express.js", "MongoDB", "JWT", "Tailwind CSS"],
+    featured: true,
+    badges: ["Production", "Full Stack", "Role-Based Access"],
+    highlights: [
+      "Google authentication flow for secure user onboarding",
+      "Razorpay checkout integration for paid inspections",
+      "Admin dashboard for listing moderation and access control",
+      "Cloud image handling and API-driven listing workflows",
+    ],
+    impact: "Delivers an end-to-end marketplace flow from listing creation to secure payments and admin moderation.",
     image: dreamCarImg,
     link: "https://github.com/malbroo96/DreamCar",
     deploy: "https://dreamcar-omega.vercel.app/#/admin",
